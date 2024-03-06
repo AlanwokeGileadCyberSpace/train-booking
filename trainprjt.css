@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+.wlctxt{
+    color: blue;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.sndtxt{
+    /* margin-left: 450px; */
+    margin-bottom: 20px;
+}
+.name{
+    /* margin-left: 550px; */
+    margin-bottom: 5px;
+}
+.trainimg{
+    background-image: url(train2img.jpg);
+    height:100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    /* max-width: 750px; */
+     
+}
+#nameInput{
+    /* margin-left: 550px; */
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+#namError{
+    margin-bottom: 30px;
+}
+
+#ageInput{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#tripdate{
+    /* margin-left: 550px; */
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#dateError{
+    margin-bottom: 30px;
+}
+#ageinpt{
+    /* margin-left: 550px; */
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#destInput{
+    
+    /* margin-left: 550px; */
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#trainServe{
+    /* margin-left: 550px; */
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#tripType{
+    /* margin-left: 550px; */
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#trainch{
+    /* margin-left: 550px; */
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.fpart{
+    /* background-image: url(./train2img.jpg); */
+    /* height: 500px; */
+    background-color: rgb(234, 211, 80);
+     margin: auto;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form{
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.fpart h3{
+    background-color: rgb(234, 211, 80);
+}
+
+.fpart form{
+    background-color: rgb(234, 211, 80);
+}
+
+.fpart p{
+    background-color: rgb(234, 211, 80);
+    /* line-height: 3; */
+}
+.btntrain{
+    background-color: rgb(15, 180, 29);
+    border: 1px solid  rgb(15, 180, 29);
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-right: 40px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
